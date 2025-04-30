@@ -707,6 +707,7 @@ Bootstrap 5 HTML CSS Template
 		
 		<script>
 			function sendEmail() {
+			  event.preventDefault();
 			  const firstName = document.getElementById("first-name").value;
 			  const lastName = document.getElementById("last-name").value;
 			  const email = document.getElementById("email").value;
